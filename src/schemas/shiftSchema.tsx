@@ -1,7 +1,13 @@
 import * as Yup from 'yup';
 
 export const newShiftSchema = Yup.object().shape({
-  date: Yup.date().required('La fecha es requerida'),
-  checkIn: Yup.string().required('La hora de entrada es requerida'),
-  checkOut: Yup.string().required('La hora de salida es requerida'),
+  date: Yup.date().required('Debe ingresar una fecha'),
+  checkIn: Yup.string().required('Debe ingresar la hora de entrada'),
+  checkOut: Yup.string().required('Debe ingresar la hora de salida'),
+  optionals: Yup.array().of(
+    Yup.object().shape({
+      label: Yup.string().required(),
+      value: Yup.string().required(),
+    })
+  ),
 });

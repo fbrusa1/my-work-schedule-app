@@ -1,0 +1,116 @@
+[
+  {
+    "document": "40123123",
+    "companyId": 1,
+    "companyName": "Empresa 1",
+    "checkIn": "09:00",
+    "checkOut": "18:00",
+    "date": "2024-06-12",
+    "optionals": []
+  },
+  {
+    "document": "40123123",
+    "companyId": 1,
+    "companyName": "Empresa 1",
+    "checkIn": "09:00",
+    "checkOut": "18:00",
+    "date": "2024-06-13",
+    "optionals": [
+      {
+        "value": 1,
+        "label": "Franco"
+      },
+      {
+        "value": 3,
+        "label": "Franco Compensatorio"
+      }
+    ]
+  },
+  {
+    "document": "40123123",
+    "companyId": 1,
+    "companyName": "Empresa 1",
+    "checkIn": "09:00",
+    "checkOut": "06:00",
+    "date": "2024-06-14",
+    "optionals": [
+      {
+        "value": 3,
+        "label": "Franco Compensatorio"
+      }
+    ]
+  },
+  {
+    "document": "40123123",
+    "companyId": 1,
+    "companyName": "Empresa 1",
+    "checkIn": "08:00",
+    "checkOut": "17:00",
+    "date": "2024-06-15",
+    "optionals": []
+  },
+  {
+    "document": "40123123",
+    "companyId": 1,
+    "companyName": "Empresa 1",
+    "checkIn": "08:00",
+    "checkOut": "17:00",
+    "date": "2024-06-16",
+    "optionals": [
+      {
+        "value": 6,
+        "label": "Guardia"
+      }
+    ]
+  },
+  {
+    "document": "40321321",
+    "companyId": 1,
+    "companyName": "Empresa 1",
+    "checkIn": "09:00",
+    "checkOut": "18:00",
+    "date": "2024-06-12",
+    "optionals": []
+  },
+  {
+    "document": "40321321",
+    "companyId": 1,
+    "companyName": "Empresa 1",
+    "checkIn": "09:00",
+    "checkOut": "18:00",
+    "date": "2024-06-13",
+    "optionals": [
+      {
+        "value": 1,
+        "label": "Franco"
+      }
+    ]
+  },
+  {
+    "document": "40321321",
+    "companyId": 1,
+    "companyName": "Empresa 1",
+    "checkIn": "08:00",
+    "checkOut": "17:00",
+    "date": "2024-06-14",
+    "optionals": [
+      {
+        "value": 1,
+        "label": "Franco"
+      },
+      {
+        "value": 2,
+        "label": "Franco Trabajado"
+      }
+    ]
+  },
+  {
+    "document": "40321321",
+    "companyId": 1,
+    "companyName": "Empresa 1",
+    "checkIn": "08:00",
+    "checkOut": "17:00",
+    "date": "2024-06-17",
+    "optionals": []
+  }
+]

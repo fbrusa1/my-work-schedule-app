@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import { join } from 'path';
-import * as XLSX from 'xlsx';
+// import * as XLSX from 'xlsx';
 
 interface Shift {
   worker: string;
@@ -9,7 +9,7 @@ interface Shift {
 
 let shifts: Shift[] = [];
 
-export default function handler(req: NextApiRequest, res: NextApiResponse) {
+/* export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const { method } = req;
 
   if (method === 'GET') {
@@ -25,4 +25,4 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     res.setHeader('Allow', ['GET']);
     res.status(405).end(`Method ${method} Not Allowed`);
   }
-}
+} */
